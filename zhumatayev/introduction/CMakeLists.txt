@@ -24,6 +24,8 @@ enable_language(CXX)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON) 
 set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
+add_subdirectory(library)
+
 # Include a subproject located in the program subdirectory. There must be a CMakeLists.txt file in it
 add_subdirectory(program)
 
